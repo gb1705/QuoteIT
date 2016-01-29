@@ -30,13 +30,18 @@
         android:background="@color/bggray"
         android:layout_height="match_parent">
 
-        <ImageView
-            android:id="@+id/demoimg"
-            android:layout_width="wrap_content"
-            android:layout_height="350dp"
-            android:elevation="20dp"
-            android:layout_marginTop="80dp"
-            android:src="@drawable/demoimg" />
+
+            <ImageView
+                android:id="@+id/demoimg"
+                android:layout_width="wrap_content"
+                android:layout_height="350dp"
+                android:elevation="20dp"
+
+                android:layout_marginTop="80dp"
+                android:src="@drawable/demoimg" />
+
+
+
 
         <com.like.LikeButton
             android:id="@+id/star_button"
